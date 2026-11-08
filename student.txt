@@ -1,0 +1,5 @@
+Student name: Pedro Martins
+Student number: 762911
+Student class: IT1A
+GitHub Repository: your github repository URL
+GitHub Pages URL: your github pages URL

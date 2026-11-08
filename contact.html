@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Send a question or a correction about the Overveen dichtbij guide using the contact form. In an emergency, call 112." />
+		<meta name="keywords" content="Overveen, contact, corrections, question, form" />
+		<meta name="author" content="Pedro Martins" />
+		<title>Contact and corrections - Overveen dichtbij</title>
+		<link rel="icon" type="image/svg+xml" href="img/logo.svg" />
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@600;700&amp;display=swap" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<a class="skip-link" href="#main">Skip to main content</a>
+
+		<header class="site-header">
+			<a class="logo" href="index.html">
+				<img src="img/logo.svg" alt="Overveen dichtbij logo: a roof above a dune line" title="Overveen dichtbij" width="40" height="40" />
+				<span>
+					<strong class="logo-name">Overveen dichtbij</strong>
+					<span class="logo-tagline">Your first months, in English</span>
+				</span>
+			</a>
+			<nav class="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="getting-around.html">Getting around</a></li>
+					<li><a href="useful-places.html">Useful places</a></li>
+					<li><a href="nature.html">Nature</a></li>
+					<li><a href="community.html">Community</a></li>
+					<li><a class="current" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<p class="notice"><span><strong>CONTACT NOTE</strong> This form is not an emergency service.</span></p>
+
+		<main id="main">
+			<section class="hero contact-hero">
+				<header class="hero-text">
+					<p class="label">Contact and corrections</p>
+					<h1>Contact and corrections</h1>
+					<p>Have a question or spotted a mistake in the guide? Send a message using the form below. In an emergency, call <strong>112</strong>.</p>
+				</header>
+				<figure class="photo">
+					<img src="img/contact-hero.png" alt="A quiet road with tall green trees on both sides" title="Road in Overveen" />
+					<figcaption>Photo: G.Lanting, CC BY 4.0</figcaption>
+				</figure>
+			</section>
+
+			<section class="contact">
+				<aside class="contact-aside">
+					<p class="label">What can you send?</p>
+					<h2>Questions and corrections</h2>
+					<p>Tell us about a wrong address, changed travel detail or useful place that is missing.</p>
+					<figure class="photo">
+						<img src="img/contact-sidebox.png" alt="Information board with a map of the dunes" title="Map of the dunes" />
+						<figcaption>Photo: G.Lanting, CC BY 4.0</figcaption>
+					</figure>
+				</aside>
+
+				<form class="form-box" action="#" method="post">
+					<fieldset>
+						<legend>Correction form</legend>
+						<h2>Send a question or correction</h2>
+						<p class="intro">* marks required fields. Phone number is <em>optional</em>.</p>
+						<p class="field">
+							<label for="name">Name *</label>
+							<input type="text" id="name" name="name" placeholder="Enter your name" required />
+						</p>
+						<p class="field field-email">
+							<label for="email">Email address *</label>
+							<input type="email" id="email" name="email" placeholder="name@example.com" required />
+						</p>
+						<p class="field field-phone">
+							<label for="phone">Phone number (optional)</label>
+							<input type="tel" id="phone" name="phone" placeholder="Optional" />
+						</p>
+						<p class="field field-topic">
+							<label for="topic">What is this about? *</label>
+							<select id="topic" name="topic" required>
+								<option value="">Choose a topic</option>
+								<option value="question">A question</option>
+								<option value="correction">A correction</option>
+								<option value="missing">Something is missing</option>
+								<option value="other">Something else</option>
+							</select>
+						</p>
+						<p class="field">
+							<label for="message">Your message *</label>
+							<textarea id="message" name="message" placeholder="Describe your question or correction" required></textarea>
+						</p>
+						<p class="form-buttons">
+							<input class="button" type="submit" value="Send correction" />
+							<input class="button-outline" type="reset" value="Clear form" />
+						</p>
+					</fieldset>
+				</form>
+			</section>
+
+			<aside class="privacy">
+				<article>
+					<h2>Privacy note</h2>
+					<p>Your details are only used to answer your message or check a correction. Personal information should stay private.</p>
+				</article>
+				<article>
+					<h2>Need something else?</h2>
+					<p>For official services, contact the council or service directly. In an emergency, call 112.</p>
+				</article>
+			</aside>
+		</main>
+
+		<footer class="site-footer">
+			<p class="footer-brand">
+				<a class="logo" href="index.html">
+					<img src="img/logo.svg" alt="Overveen dichtbij logo: a roof above a dune line" title="Overveen dichtbij" width="40" height="40" />
+					<span>
+						<strong class="logo-name">Overveen dichtbij</strong>
+						<span class="logo-tagline">Your first months, in English</span>
+					</span>
+				</a>
+				An English guide to settling into Overveen.
+			</p>
+			<nav class="footer-nav">
+				<h2>GUIDE</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="getting-around.html">Getting around</a></li>
+					<li><a href="useful-places.html">Useful places</a></li>
+					<li><a href="nature.html">Nature and recreation</a></li>
+				</ul>
+			</nav>
+			<nav class="footer-nav">
+				<h2>COMMUNITY</h2>
+				<ul>
+					<li><a href="community.html">Community life</a></li>
+					<li><a href="contact.html">Contact and corrections</a></li>
+				</ul>
+			</nav>
+			<section class="footer-about">
+				<h2>ABOUT</h2>
+				<p>An English guide for your first months in Overveen.</p>
+			</section>
+			<p class="footer-bottom">&copy; 2026 Overveen dichtbij &ndash; Pedro Martins. All rights reserved.</p>
+			<p class="footer-credits">Photo credits are shown on the photographs.</p>
+		</footer>
+
+		<aside class="cookies">
+			<p>Cookies: this website does not use tracking cookies.</p>
+		</aside>
+	</body>
+</html>
